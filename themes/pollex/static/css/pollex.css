@@ -26,6 +26,11 @@ ul.nav.navbar-nav > li > a:hover {
     background: #f0e0d9;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
 .hidden {
     display: none;
 }
@@ -93,6 +98,21 @@ img {
     color: #fff;
     padding: 20px;
 }
+.footer {
+    border-top: solid 2px #eee;
+    text-align: center;
+    padding: 20px 15px;
+    background: #fff;
+}
+.footerimg {
+    width: 100%;
+    max-width: 300px;
+    padding: 40px 0;
+}
+i {
+    padding: 0 10px;
+}
+
 @media (min-width: 768px) {
     .parent {
         display: flex
@@ -113,18 +133,4 @@ img {
         padding: 20px 10px;
         color: #333;
     }
-}
-.footer {
-    border-top: solid 2px #eee;
-    text-align: center;
-    padding: 20px 15px;
-    background: #fff;
-}
-.footerimg {
-    width: 100%;
-    max-width: 300px;
-    padding: 40px 0;
-}
-i {
-    padding: 0 10px;
 }
