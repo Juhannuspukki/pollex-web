@@ -1,4 +1,4 @@
-baseURL = "https://juhannuspukki.github.io/"
+baseURL = "https://juhannuspukki.github.io/pollex-web-17"
 languageCode = "en-us"
 theme = "pollex"
 title = "Pollex"
