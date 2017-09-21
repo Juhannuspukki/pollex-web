@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+<body>
+<div class="container primary">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="../img/pollex_logo_3.jpg" class="brandimg"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="/events/">Events</a></li>
+                    <li><a href="/rules/">Rules</a></li>
+                    <li><a href="/board/">Board</a></li>
+                    <li><a href="/contact/">Contact & join</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="thumbnail">
+        <img src="../img/medic-563423.jpg" class="imgcontainer img-responsive">
+        <div class="imglayer">
+            {{ with $.Site.GetPage "page" "intro.md" }}{{.Title}}{{end}}
+            <p>
+                {{ with $.Site.GetPage "page" "intro.md" }}{{.Content}}{{end}}
+            </p>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="parent">
+            <div class="col-sm-6" id="card1">
+                {{ with $.Site.GetPage "page" "description.md" }}{{.Content}}{{end}}
+            </div>
+            <div class="col-sm-6" id="card2">
+                {{ with $.Site.GetPage "page" "activities.md" }}{{.Content}}{{end}}
+            </div>
+        </div>
+        <div class="parent">
+            <div class="col-sm-6" id="card3">
+                {{ with $.Site.GetPage "page" "connecting.md" }}{{.Content}}{{end}}
+            </div>
+            <div class="col-sm-6" id="card4">
+                {{ with $.Site.GetPage "page" "joinus.md" }}{{.Content}}{{end}}
+            </div>
+        </div>
+    </div>
+    {{ partial "footer.html" . }}
+</div>
+</body>
+</html>

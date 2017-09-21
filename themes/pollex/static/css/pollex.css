@@ -1,0 +1,130 @@
+ul.nav.navbar-nav > li > a:hover {
+    background: #eee;
+}
+
+.navbar-toggle {
+    background: #ccc;
+}
+
+.navbar-toggle > .icon-bar{
+    background: #fff;
+}
+
+.active > a {
+    background: #f0e0d9;
+}
+
+.navbar-toggle {
+    background: #ccc;
+}
+
+.navbar-toggle > .icon-bar{
+    background: #fff;
+}
+
+.active > a {
+    background: #f0e0d9;
+}
+
+.hidden {
+    display: none;
+}
+.primary {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0;
+}
+.imgcontainer {
+    padding: 0;
+}
+.navbar {
+    margin: 0;
+    border-bottom: 2px solid #eee;
+    background: #fff;
+
+}
+.imglayer {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    transform: translate( 0%, -50% );
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    padding: 10px;
+    font-size: calc(40px + 0.5vw);
+}
+.imglayer > p {
+    font-weight: normal;
+    font-size: calc(12px + 0.5vw);
+
+}
+img {
+    position: relative;
+}
+
+.thumbnail {
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: relative;
+    display: block;
+}
+.cards {
+    text-align: center;
+}
+
+#card1 {
+    background: #f0e0d9;
+    padding: 20px;
+}
+
+#card2 {
+    padding: 20px;
+}
+
+#card3 {
+    background: #400003;
+    color: #fff;
+    padding: 20px;
+}
+
+#card4 {
+    background: #550007;
+    color: #fff;
+    padding: 20px;
+}
+@media (min-width: 768px) {
+    .parent {
+        display: flex
+    }
+    .brandimg {
+        height: 70px;
+    }
+    ul.nav.navbar-nav > li > a {
+        padding: 39px 10px;
+        color: #333;
+    }
+}
+@media (max-width: 767px) {
+    .brandimg {
+        height: 22px;
+    }
+    ul.nav.navbar-nav > li > a {
+        padding: 20px 10px;
+        color: #333;
+    }
+}
+.footer {
+    border-top: solid 2px #eee;
+    text-align: center;
+    padding: 20px 15px;
+    background: #fff;
+}
+.footerimg {
+    width: 100%;
+    max-width: 300px;
+    padding: 40px 0;
+}
+i {
+    padding: 0 10px;
+}
