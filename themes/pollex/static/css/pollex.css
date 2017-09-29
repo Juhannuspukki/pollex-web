@@ -46,18 +46,21 @@ body {
 }
 .imglayer {
     position: absolute;
-    top: 75%;
+    top: 50%;
     left: 0;
+    height: 100%;
+    width: 100%;
     transform: translate( 0%, -50% );
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.75);
     font-weight: bold;
-    padding: 10px;
-    font-size: calc(40px + 0.5vw);
+    padding: 20px 71% 20px 20px;
+    font-size: 4.6vw;
+    background: linear-gradient(300deg, rgba(255,0,0,0) 65%, rgba(255,255,255,255) 35%);
 }
+
 .imglayer > p {
     font-weight: normal;
-    font-size: calc(12px + 0.5vw);
+    font-size: 2.7vw;
 
 }
 img {
@@ -94,11 +97,6 @@ img {
     background: #38394e;
     color: #fff;
     padding: 20px;
-}
-
-#grad1 {
-    height: 200px;
-    background: linear-gradient(225deg, rgba(255,0,0,0) 70%, rgba(255,255,255,255) 30%);
 }
 
 .footer {
