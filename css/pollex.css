@@ -11,7 +11,7 @@ ul.nav.navbar-nav > li > a:hover {
 }
 
 .active > a {
-    background: #f0e0d9;
+    background: #e1e0f0;
 }
 
 .navbar-toggle {
@@ -22,9 +22,6 @@ ul.nav.navbar-nav > li > a:hover {
     background: #fff;
 }
 
-.active > a {
-    background: #f0e0d9;
-}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -49,18 +46,21 @@ body {
 }
 .imglayer {
     position: absolute;
-    top: 75%;
+    top: 50%;
     left: 0;
+    height: 100%;
+    width: 100%;
     transform: translate( 0%, -50% );
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.75);
     font-weight: bold;
-    padding: 10px;
-    font-size: calc(40px + 0.5vw);
+    padding: 20px 71% 20px 20px;
+    font-size: 4.6vw;
+    background: linear-gradient(300deg, rgba(255,0,0,0) 65%, rgba(255,255,255,255) 35%);
 }
+
 .imglayer > p {
     font-weight: normal;
-    font-size: calc(12px + 0.5vw);
+    font-size: 2.7vw;
 
 }
 img {
@@ -79,7 +79,7 @@ img {
 }
 
 #card1 {
-    background: #f0e0d9;
+    background: #d4d2f0;
     padding: 20px;
 }
 
@@ -88,16 +88,17 @@ img {
 }
 
 #card3 {
-    background: #400003;
+    background: #212040;
     color: #fff;
     padding: 20px;
 }
 
 #card4 {
-    background: #550007;
+    background: #38394e;
     color: #fff;
     padding: 20px;
 }
+
 .footer {
     border-top: solid 2px #eee;
     text-align: center;
@@ -111,6 +112,23 @@ img {
 }
 i {
     padding: 0 10px;
+    color: #333;
+}
+
+i:hover {
+     color: #212040;
+ }
+
+#fb {
+    color: #3B5998
+}
+
+#in {
+    color: #0077B5
+}
+
+#fb:hover, #in:hover {
+    opacity: 0.8;
 }
 
 @media (min-width: 768px) {
