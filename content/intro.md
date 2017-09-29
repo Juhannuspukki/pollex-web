@@ -4,4 +4,4 @@ draft = false
 title = "Join Pollex!"
 +++
 
-Become a member of the local biomedical engineering community!
+Become a member of the local biomedical engineering community and kickstart your career!

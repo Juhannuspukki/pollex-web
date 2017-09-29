@@ -16,4 +16,4 @@ God: Tiina Ristilä
 
 All emails are: firstname.lastname@student.tut.fi
 
-The entire board will be reachable through pollex@tut.fi
+The entire board is reachable through pollex@tut.fi
