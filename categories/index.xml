@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pollex</title>
-    <link>https://juhannuspukki.github.io/pollex-web-17/categories/</link>
+    <link>https://http://jere.pro.s3-website.eu-central-1.amazonaws.com/categories/</link>
     <description>Recent content in Categories on Pollex</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://juhannuspukki.github.io/pollex-web-17/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://http://jere.pro.s3-website.eu-central-1.amazonaws.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

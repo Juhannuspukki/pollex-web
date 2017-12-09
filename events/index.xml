@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Pollex</title>
-    <link>https://juhannuspukki.github.io/pollex-web-17/events/</link>
+    <link>https://http://jere.pro.s3-website.eu-central-1.amazonaws.com/events/</link>
     <description>Recent content in Events on Pollex</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://juhannuspukki.github.io/pollex-web-17/events/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://http://jere.pro.s3-website.eu-central-1.amazonaws.com/events/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://juhannuspukki.github.io/pollex-web-17/events/</link>
+      <link>https://http://jere.pro.s3-website.eu-central-1.amazonaws.com/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://juhannuspukki.github.io/pollex-web-17/events/</guid>
+      <guid>https://http://jere.pro.s3-website.eu-central-1.amazonaws.com/events/</guid>
       <description>Events We do our best to provide fun, educating and inspiring pastime for our members. These include (but are not limited to) excursions, board game nights, coffee hours, kyykkä, career events and pre-christmas parties. We are also open to new suggestions concerning the events!</description>
     </item>
     
