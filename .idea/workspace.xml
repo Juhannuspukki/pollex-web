@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce51e65-c7b8-46a7-bc9b-797921f7a9e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/layouts/board/single.html" afterPath="$PROJECT_DIR$/themes/pollex/layouts/board/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/layouts/contact/single.html" afterPath="$PROJECT_DIR$/themes/pollex/layouts/contact/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/layouts/events/single.html" afterPath="$PROJECT_DIR$/themes/pollex/layouts/events/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/layouts/index.html" afterPath="$PROJECT_DIR$/themes/pollex/layouts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/layouts/partials/footer.html" afterPath="$PROJECT_DIR$/themes/pollex/layouts/partials/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/layouts/partials/header.html" afterPath="$PROJECT_DIR$/themes/pollex/layouts/partials/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/layouts/rules/single.html" afterPath="$PROJECT_DIR$/themes/pollex/layouts/rules/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/pollex/theme.toml" afterPath="$PROJECT_DIR$/themes/pollex/theme.toml" />
+    <list default="true" id="4ce51e65-c7b8-46a7-bc9b-797921f7a9e8" name="Default" comment="Update for S3">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Pollexweb.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -244,7 +237,7 @@
       <workItem from="1512075182017" duration="1729000" />
       <workItem from="1512357070247" duration="13000" />
       <workItem from="1512497355708" duration="213000" />
-      <workItem from="1512776918323" duration="6046000" />
+      <workItem from="1512776918323" duration="6339000" />
     </task>
     <task id="LOCAL-00001" summary="Change colors">
       <created>1506648135190</created>
@@ -260,11 +253,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506713999771</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update for S3">
+      <created>1512792932637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512792932638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14838000" />
+    <option name="totallyTimeSpent" value="15131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -298,7 +298,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change colors" />
     <MESSAGE value="Add media query max-font-size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add media query max-font-size" />
+    <MESSAGE value="Update for S3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update for S3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
