@@ -10,6 +10,8 @@ External relations: Sanna Kallio
 
 Treasurer: Jere Laine
 
+Secretary: Paula Puistola
+
 # Board 2017
 
 Chairman of the board: Sanna Kallio
