@@ -6,7 +6,7 @@ title = ""
 
 Chairman of the board: Eetu Siitama
 
-External relations: Sanna KAllio
+External relations: Sanna Kallio
 
 Treasurer: Jere Laine
 
