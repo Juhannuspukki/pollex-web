@@ -1,3 +1,15 @@
++++
+title = ""
+
++++
+# Board 2018
+
+Chairman of the board: Eetu Siitama
+
+External relations: Sanna KAllio
+
+Treasurer: Jere Laine
+
 # Board 2017
 
 Chairman of the board: Sanna Kallio
