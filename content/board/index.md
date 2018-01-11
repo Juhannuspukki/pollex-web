@@ -12,6 +12,8 @@ Treasurer: Jere Laine
 
 Secretary: Paula Puistola
 
+Studies: Vilma Pohjonen
+
 # Board 2017
 
 Chairman of the board: Sanna Kallio
