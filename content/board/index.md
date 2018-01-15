@@ -14,6 +14,8 @@ Secretary: Paula Puistola
 
 Studies: Vilma Pohjonen
 
+Information: Asta Peräkylä
+
 # Board 2017
 
 Chairman of the board: Sanna Kallio
