@@ -1,4 +1,6 @@
 ---
+pages:
+- events/ooo.md
 hide_body: false
 fields:
 - name: title
