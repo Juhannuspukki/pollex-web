@@ -1,4 +1,4 @@
-baseURL = "https://http://jere.pro.s3-website.eu-central-1.amazonaws.com/"
+baseURL = "http://pollexwebsite.s3-website.eu-central-1.amazonaws.com"
 languageCode = "en-us"
 theme = "pollex"
 title = "Pollex"
