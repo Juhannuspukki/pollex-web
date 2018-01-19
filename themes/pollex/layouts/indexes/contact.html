@@ -16,15 +16,15 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li><a href="../events/">Events</a></li>
-                    <li><a href="../rules/">Rules</a></li>
-                    <li class="active"><a href="../board/">Board</a></li>
-                    <li><a href="../contact/">Contact & join</a></li>
+                    <li><a href="../rules">Rules</a></li>
+                    <li><a href="../board">Board</a></li>
+                    <li class="active"><a href="../contact">Contact & join</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container">
-        {{ .Content }}
+        {{ .Content | markdownify }}
     </div>
     {{ partial "footer.html" . }}
 </div>

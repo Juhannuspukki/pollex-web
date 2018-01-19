@@ -15,47 +15,26 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="../events/">Events</a></li>
-                    <li><a href="../rules/">Rules</a></li>
-                    <li><a href="../board/">Board</a></li>
-                    <li><a href="../contact/">Contact & join</a></li>
+                    <li class="active"><a href="../events">Events</a></li>
+                    <li><a href="../rules">Rules</a></li>
+                    <li><a href="../board">Board</a></li>
+                    <li><a href="../contact">Contact & join</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item active">
-                <img src="../img/IMG_20170308_161642.jpg" alt="Chania">
-                <div class="carousel-caption">
-                    <h3>Career evening</h3>
-                    <p>Pollex career evening attracted a large audience</p>
+            {{ range .Data.Pages }}
+                <div class="item" id="53">
+                    <img src="{{ .Params.banner }}">
+                    <div class="carousel-caption">
+                        <h3>{{ .Params.title }}</h3>
+                        <p>{{ .Content }}</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="item">
-                <img src="../img/DSCN5869.JPG" alt="Chicago">
-                <div class="carousel-caption">
-                    <h3>XQ</h3>
-                    <p>Excursion to Helsinki</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="../img/DSCN5879.JPG" alt="New York">
-                <div class="carousel-caption">
-                    <h3>Visiting GE Healthcare</h3>
-                    <p>I bet those are expensive!</p>
-                </div>
-            </div>
+            {{ end }}
         </div>
 
         <!-- Left and right controls -->
@@ -69,9 +48,16 @@
         </a>
     </div>
     <div class="container">
-        {{ .Content }}
+        {{ .Content | markdownify }}
     </div>
     {{ partial "footer.html" . }}
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+        document.getElementById("53").classList.add("active")
+    });
+</script>
+
 </body>
 </html>
