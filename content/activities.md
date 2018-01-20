@@ -1,3 +1,8 @@
++++
+title = ""
+type = "page"
+
++++
 # Our activities
 
 We arrange movie nights, excursions and meetings with the corporate world. Lately we have visited Modulight in Tampere
