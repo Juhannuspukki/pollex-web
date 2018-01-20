@@ -1,6 +1,6 @@
 ---
 title: Career evening
-banner: /img/events/careerEvening.jpg
+banner: /img/careerEvening.jpg
 ---
 
 Career evening attracted a large audience
