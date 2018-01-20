@@ -1,6 +1,6 @@
 ---
 title: Visiting GE healthcare
-banner: /img/events/GE.jpg
+banner: /img/GE.jpg
 ---
 
 I bet those are expensive!
