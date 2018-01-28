@@ -121,6 +121,10 @@ i:hover {
     color: #0077B5
 }
 
+#tg {
+    color: #0088cc
+}
+
 #fb:hover, #in:hover {
     opacity: 0.8;
 }
