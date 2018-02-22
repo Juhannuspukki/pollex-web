@@ -16,6 +16,8 @@ Studies: Vilma Pohjonen
 
 Information: Asta Peräkylä
 
+<br>
+
 # Board 2017
 
 Chairman of the board: Sanna Kallio
