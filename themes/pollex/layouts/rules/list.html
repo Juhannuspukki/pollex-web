@@ -3,11 +3,11 @@
 {{ partial "header.html" . }}
 <body>
 <div class="container primary">
-    {{ partial "nav.html" }}
-    <div class="container">
-        {{ .Content | markdownify }}
-    </div>
-    {{ partial "footer.html" . }}
+  {{ partial "nav.html" . }}
+  <div class="container">
+    {{ .Content | markdownify }}
+  </div>
+  {{ partial "footer.html" . }}
 </div>
 </body>
 </html>
