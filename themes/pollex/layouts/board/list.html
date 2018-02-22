@@ -3,26 +3,9 @@
 {{ partial "header.html" . }}
 <body>
 <div class="container primary">
-    <nav class="navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="../"><img src="../img/pollex_logo_3.jpg" class="brandimg"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="../events">Events</a></li>
-                    <li><a href="../rules">Rules</a></li>
-                    <li class="active"><a href="">Board</a></li>
-                    <li><a href="../contact/">Contact & join</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    
+    {{ partial "nav.html" . }}
+    
     <div class="container">
         {{ .Content | markdownify }}
     </div>
