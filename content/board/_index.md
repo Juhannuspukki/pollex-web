@@ -8,7 +8,7 @@ Chairman of the board: Eetu Siitama
 
 External relations: Sanna Kallio
 
-Treasurer: Jere Laine
+Treasurer and IT guy: Jere Laine
 
 Secretary: Paula Puistola
 
