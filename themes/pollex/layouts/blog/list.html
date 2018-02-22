@@ -15,7 +15,7 @@
     <div class="col-sm-7 blogcontent">
       <h2 class="title">{{ .Params.title }}</h2>
       <div class="textcenter alignleft">{{ .Summary }}</div>
-      <a href="/careers/{{ .Params.link }}" class="bloglink linkbutton">Read more</a>
+      <a href="{{ .Params.link }}" class="bloglink linkbutton">Read more</a>
     </div>
   </div>
   {{ end }}

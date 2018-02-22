@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "header.html" . }}
+<body class="container primary">
+
+{{ partial "nav.html" . }}
+
+<section>
+  {{ if .Params.banner }}
+  <img src="{{ .Params.banner }}" width=100% class="img-responsive limit-height banner" alt="">
+  {{ end }}
+  <div class="container">
+    <div class="hero">
+      <h1 class="title">{{ .Params.title }}</h1>
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+
+</body>
+</html>
