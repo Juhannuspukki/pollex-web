@@ -97,6 +97,12 @@ img {
   padding: 20px;
 }
 
+.blogpicture {
+  min-height: 200px;
+  background: center no-repeat;
+  background-size: cover;
+}
+
 .footer {
   border-top: solid 2px #eee;
   text-align: center;
@@ -141,6 +147,12 @@ i:hover {
 }
 
 @media (min-width: 768px) {
+  
+  .blogpicture, .blogcontent {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .parent {
     display: flex
   }
