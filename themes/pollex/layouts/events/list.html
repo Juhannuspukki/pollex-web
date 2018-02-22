@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 {{ partial "header.html" . }}
-<body>
-<div class="container primary">
-  {{ partial "nav.html" . }}
+<body class="container primary">
+
+{{ partial "nav.html" . }}
+
+<section class="carousel">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
@@ -28,11 +30,15 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+</section>
+
+<section class="hero">
   <div class="container">
     {{ .Content | markdownify }}
   </div>
-  {{ partial "footer.html" . }}
-</div>
+</section>
+
+{{ partial "footer.html" . }}
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

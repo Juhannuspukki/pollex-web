@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 {{ partial "header.html" . }}
-<body>
-<div class="container primary">
-  {{ partial "nav.html" . }}
-  <div class="container">
-    {{ .Content | markdownify }}
-    {{ range .Data.Pages }}
-    <div class="row parent">
-      <div class="col-sm-5 blogpicture" style="background-image: url('{{ .Params.bannerpreview }}')"></div>
-      <div class="col-sm-7 blogcontent">
-        <h2 class="title">{{ .Params.title }}</h2>
-        <div class="textcenter alignleft">{{ .Summary }}</div>
-        <a href="/careers/{{ .Params.link }}" class="bloglink linkbutton">Read more</a>
-      </div>
+<body class="container primary">
+
+{{ partial "nav.html" . }}
+
+<section class="blogintro hero">
+  {{ .Content | markdownify }}
+</section>
+<section class="blogsection">
+  {{ range .Data.Pages }}
+  <div class="row parent blogcard">
+    <div class="col-sm-5 blogpicture" style="background-image: url('{{ .Params.bannerpreview }}')"></div>
+    <div class="col-sm-7 blogcontent">
+      <h2 class="title">{{ .Params.title }}</h2>
+      <div class="textcenter alignleft">{{ .Summary }}</div>
+      <a href="/careers/{{ .Params.link }}" class="bloglink linkbutton">Read more</a>
     </div>
-    {{ end }}
   </div>
-  {{ partial "footer.html" . }}
-</div>
+  {{ end }}
+</section>
+
+{{ partial "footer.html" . }}
+
 </body>
 </html>

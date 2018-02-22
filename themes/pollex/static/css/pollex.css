@@ -27,6 +27,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  margin: 0 0 20px 0;
+}
+
 .hidden {
   display: none;
 }
@@ -42,6 +46,7 @@ body {
 
 .navbar {
   margin: 0;
+  border: none;
   border-bottom: 2px solid #eee;
   background: #fff;
   
@@ -97,10 +102,25 @@ img {
   padding: 20px;
 }
 
+.hero {
+  background: #fff;
+  padding: 40px 0;
+}
+
 .blogpicture {
   min-height: 200px;
   background: center no-repeat;
   background-size: cover;
+}
+
+.blogcard {
+  border-top: 2px solid #eee;
+  margin: 0;
+  background: #fff;
+}
+
+.blogsection {
+  background: #eee;;
 }
 
 .footer {
