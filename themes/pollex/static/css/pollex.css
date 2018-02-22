@@ -116,6 +116,10 @@ img {
   padding: 40px 0;
 }
 
+.footercontent {
+  padding: 40px 0;
+}
+
 .footer a:hover {
   text-decoration: none;
 }
