@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default navbar-topfix">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="/img/pollex_logo_3.jpg" class="brandimg"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        {{  range first 5 .Site.Menus.nav }}
+        <li><a href="{{.URL}}" {{if $.HasMenuCurrent "nav" .}}class="active"{{end}}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://app.forestry.io/login"><span class="fas fa-tree"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
