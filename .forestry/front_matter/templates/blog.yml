@@ -1,4 +1,6 @@
 ---
+pages:
+- blog/pullaa.md
 hide_body: false
 fields:
 - name: title
