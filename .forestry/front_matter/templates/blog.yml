@@ -12,7 +12,7 @@ fields:
   label: Type
   type: text
   hidden: false
-  default: ''
+  default: blog
 - name: banner
   label: Banner
   type: file
@@ -23,11 +23,11 @@ fields:
   type: datetime
   hidden: false
   default: ''
-- name: link
-  label: Link
-  type: datetime
-  hidden: false
+- type: text
   default: ''
+  name: link
+  label: Link
+  description: Add the same link you wrote to path!
 - name: bannerPreview
   label: Bannerpreview
   type: file
