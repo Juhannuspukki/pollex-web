@@ -2,6 +2,7 @@ baseURL = "http://pollex.club/"
 languageCode = "en-us"
 title = "Pollex"
 sectionPagesMenu = "nav"
+theme = "pollex"
 
 [[menu.nav]]
     identifier = "board"
