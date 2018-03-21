@@ -27,7 +27,7 @@ fields:
   default: ''
   name: link
   label: Link
-  description: Add the same link you wrote to path!
+  description: Add the same string you wrote to path!
 - name: bannerPreview
   label: Bannerpreview
   type: file
