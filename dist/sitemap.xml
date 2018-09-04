@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/blog/pullaa/</loc>
+    <lastmod>2018-03-20T19:52:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/intro/</loc>
+    <lastmod>2017-04-17T11:01:21-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/activities/</loc>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2018-03-20T19:52:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/board/</loc>
+  </url>
+  
+  <url>
+    <loc>/connecting/</loc>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/description/</loc>
+  </url>
+  
+  <url>
+    <loc>/events/</loc>
+  </url>
+  
+  <url>
+    <loc>/joinus/</loc>
+  </url>
+  
+  <url>
+    <loc>/rules/</loc>
+  </url>
+  
+  <url>
+    <loc>/events/careerevening/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/events/helsinkixq/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-03-20T19:52:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/events/ge/</loc>
+  </url>
+  
+</urlset>

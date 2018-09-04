@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Pollex"
+sectionPagesMenu = "nav"
+
+[[menu.nav]]
+    identifier = "board"
+    name = "Board"
+    url = "/board"
+    weight = 2
+[[menu.nav]]
+    identifier = "rules"
+    name = "Rules"
+    url = "/rules"
+    weight = 3
+[[menu.nav]]
+    identifier = "contact"
+    name = "Contact & join"
+    url = "/contact"
+    weight = 4
+[[menu.nav]]
+    identifier = "events"
+    name = "Events"
+    url = "/events"
+    weight = 1
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
