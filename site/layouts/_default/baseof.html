@@ -12,6 +12,8 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="css/main.min.css"/>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
   <body>
   
     <div class="container primary">
@@ -23,6 +25,16 @@
     </div>
 
     <script src="app.js"></script>
-
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
