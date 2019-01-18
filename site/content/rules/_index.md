@@ -1,3 +1,8 @@
+---
+title: Rules
+
+---
+
 # Rules (in Finnish)
 
 ## I LUKU: Nimi, kotipaikka ja tarkoitus
