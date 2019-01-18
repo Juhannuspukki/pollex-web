@@ -1,3 +1,8 @@
+---
+title: Events
+
+---
+
 # Events
 
 We do our best to provide fun, educating and inspiring pastime for our members. These include
