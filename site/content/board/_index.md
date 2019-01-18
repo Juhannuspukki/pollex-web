@@ -1,7 +1,3 @@
-+++
-title = ""
-
-+++
 # Board 2018
 
 Chairman of the board: Eetu Siitama
