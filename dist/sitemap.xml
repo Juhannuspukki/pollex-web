@@ -22,15 +22,7 @@
   </url>
   
   <url>
-    <loc>/board/</loc>
-  </url>
-  
-  <url>
     <loc>/connecting/</loc>
-  </url>
-  
-  <url>
-    <loc>/contact/</loc>
   </url>
   
   <url>
@@ -38,15 +30,11 @@
   </url>
   
   <url>
-    <loc>/events/</loc>
-  </url>
-  
-  <url>
     <loc>/joinus/</loc>
   </url>
   
   <url>
-    <loc>/rules/</loc>
+    <loc>/board/</loc>
   </url>
   
   <url>
@@ -59,6 +47,14 @@
   </url>
   
   <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/events/</loc>
+  </url>
+  
+  <url>
     <loc>/events/helsinkixq/</loc>
   </url>
   
@@ -66,6 +62,10 @@
     <loc>/</loc>
     <lastmod>2018-03-20T19:52:16+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/rules/</loc>
   </url>
   
   <url>
