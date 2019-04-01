@@ -1,6 +1,12 @@
 ---
 title: Board
 ---
+All emails are firstname.lastname@tuni.fi
+
+The entire board is reachable through pollex@tut.fi
+
+<br><br>
+
 # Board 2019
 
 Chairperson: Sanna Kallio
@@ -15,7 +21,7 @@ Studies: Matias Jokinen
 
 Club room: Anna Malm
 
-
+<br><br>
 
 # Board 2018
 
@@ -50,7 +56,3 @@ Club room: Anna Malm
 God: Tiina Ristilä
 
 <br>
-
-All emails are: firstname.lastname@student.tut.fi
-
-The entire board is reachable through pollex@tut.fi
