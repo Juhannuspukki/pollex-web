@@ -136,10 +136,6 @@ img {
     color: #333;
   }
 
-  i:hover {
-    color: #212040;
-  }
-
   #fb {
     color: #3B5998
   }
@@ -154,7 +150,7 @@ img {
 
 }
 
-#fb:hover, #in:hover, #tg:hover, .fa-envelope:hover {
+#fb:hover, #in:hover, #tg:hover, #insta:hover, .fa-envelope:hover {
   opacity: 0.8;
   text-decoration: none;
 }
