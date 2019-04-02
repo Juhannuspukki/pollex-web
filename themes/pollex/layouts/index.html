@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+<body>
+<div class="container primary">
+  
+  {{ partial "nav.html" . }}
+  
+  <div class="thumbnail">
+    <img src="../img/medic-563423.jpg" class="imgcontainer img-responsive">
+    <div class="imglayer">
+      {{ with $.Site.GetPage "page" "intro.md" }}{{.Title}}{{end}}
+      <p>
+        {{ with $.Site.GetPage "page" "intro.md" }}{{.Content}}{{end}}
+      </p>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="parent">
+      <div class="col-sm-6" id="card1">
+        {{ with $.Site.GetPage "page" "description.md" }}{{.Content}}{{end}}
+      </div>
+      <div class="col-sm-6" id="card2">
+        {{ with $.Site.GetPage "page" "activities.md" }}{{.Content}}{{end}}
+      </div>
+    </div>
+    <div class="parent">
+      <div class="col-sm-6" id="card3">
+        {{ with $.Site.GetPage "page" "connecting.md" }}{{.Content}}{{end}}
+      </div>
+      <div class="col-sm-6" id="card4">
+        {{ with $.Site.GetPage "page" "joinus.md" }}{{.Content}}{{end}}
+      </div>
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+</div>
+</body>
+</html>
