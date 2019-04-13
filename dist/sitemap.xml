@@ -3,34 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/pullaa/</loc>
-    <lastmod>2018-03-20T19:52:16+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/intro/</loc>
     <lastmod>2017-04-17T11:01:21-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/activities/</loc>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2018-03-20T19:52:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/connecting/</loc>
-  </url>
-  
-  <url>
-    <loc>/description/</loc>
-  </url>
-  
-  <url>
-    <loc>/joinus/</loc>
+    <loc>/</loc>
+    <lastmod>2017-04-17T11:01:21-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -38,7 +18,19 @@
   </url>
   
   <url>
-    <loc>/events/careerevening/</loc>
+    <loc>/board/board-2017/</loc>
+  </url>
+  
+  <url>
+    <loc>/board/board-2018/</loc>
+  </url>
+  
+  <url>
+    <loc>/board/board-2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/news/careerevening/</loc>
   </url>
   
   <url>
@@ -47,25 +39,40 @@
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>/front-cards/connecting/</loc>
   </url>
   
   <url>
-    <loc>/events/</loc>
+    <loc>/calendar/</loc>
   </url>
   
   <url>
-    <loc>/events/helsinkixq/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-03-20T19:52:16+00:00</lastmod>
+    <loc>/front-cards/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/rules/</loc>
+    <loc>/news/helsinkixq/</loc>
+  </url>
+  
+  <url>
+    <loc>/join/</loc>
+  </url>
+  
+  <url>
+    <loc>/front-cards/joinus/</loc>
+  </url>
+  
+  <url>
+    <loc>/news/</loc>
+  </url>
+  
+  <url>
+    <loc>/front-cards/activities/</loc>
+  </url>
+  
+  <url>
+    <loc>/front-cards/description/</loc>
   </url>
   
   <url>
@@ -74,7 +81,7 @@
   </url>
   
   <url>
-    <loc>/events/ge/</loc>
+    <loc>/news/ge/</loc>
   </url>
   
 </urlset>

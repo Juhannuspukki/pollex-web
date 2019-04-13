@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<section class="hero topmost-container">
+  <div class="header-container">
+    <h1>{{ .Params.Title }}</h1>
+    <div class="container text-container">
+      {{ .Content | markdownify }}
+    </div>
+  </div>
+</section>
+<section class="container last-container">
+  <iframe class="form" src="{{ .Params.formcode }}" height="1170" frameborder="0" marginheight="0" marginwidth="0">Ladataan...</iframe>
+</section>
+
+{{ end }}
