@@ -1,3 +1,14 @@
+<div class="ghostfooter">
+  <div class="footer-content">
+    <div class="footer-sponsors">
+      {{ range ((where .Site.Pages "Section" "sponsors").ByParam "rank") }}
+      {{ if .Params.link }}
+        <img src="{{ .Params.logo }}" height="64px">
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
 <footer class="footer">
   <div class="container">
     <div class="footer-line-container">
@@ -5,20 +16,25 @@
     </div>
     <div class="footer-content">
       <p>Clubroom: Päätalo basement, PC001E</p>
-      <a href="https://www.facebook.com/pollextut" class="footer-icon">
-        <i id="fb" class="fab fa-facebook fa-3x" aria-hidden="true"></i>
-      </a>
-      <a href="/" id="gramlink" class="footer-icon">
-        <i id="tg" class="fab fa-telegram fa-3x" aria-hidden="true"></i>
-      </a>
-      <a href="https://www.linkedin.com/company/pollexclub/" class="footer-icon">
-        <i id="in" class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
-      </a>
-      <a href="https://www.instagram.com/pollexclub/" class="footer-icon">
-        <i id="insta" class="fab fa-instagram fa-3x" aria-hidden="true"></i>
-      </a>
+      {{ range ((where .Site.Pages "Section" "footer").ByParam "rank") }}
+        {{ if .Params.link }}
+        <a href="{{ .Params.link }}" class="footer-icon">
+          <i id="{{ .Params.id }}"
+             class="fab {{ .Params.icon }} fa-3x"
+             aria-hidden="true"></i>
+        </a>
+        {{ end }}
+      {{ end }}
+      <div class="footer-sponsors">
+      {{ range ((where .Site.Pages "Section" "sponsors").ByParam "rank") }}
+        {{ if .Params.link }}
+        <a href="{{ .Params.link }}" class="sponsor">
+          <img src="{{ .Params.logo }}" height="24px">
+        </a>
+        {{ end }}
+      {{ end }}
+      </div>
       <!--No words were pressed in the making of this site.-->
     </div>
   </div>
-
 </footer>

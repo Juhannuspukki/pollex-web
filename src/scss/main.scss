@@ -48,11 +48,14 @@ h1, h2, h3 {
 }
 
 .last-container {
-  padding-bottom: 18rem;
+  padding-bottom: 22rem;
 }
 
 .hero {
-  padding: 3rem 0;
+  padding: 5rem 0;
+  h1, p {
+    margin: 0
+  }
   .container {
     position: relative;
     .hero-image {
@@ -171,12 +174,6 @@ h1, h2, h3 {
 
   .footer-content {
     padding: 48px 0;
-
-    .footer-icon:hover {
-      text-decoration: none;
-      opacity: 0.8;
-    }
-
     i {
       margin: 0 10px;
       color: #333;
@@ -194,6 +191,21 @@ h1, h2, h3 {
       color: #0088cc
     }
   }
+  .footer-sponsors {
+    margin-top: 2rem;
+    .sponsor{
+      padding: 0 1rem;
+    }
+  }
+
+  .footer-icon:hover, .sponsor:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}
+
+.ghostfooter {
+  visibility: hidden;
 }
 
 .form {
@@ -217,6 +229,14 @@ h1, h2, h3 {
     }
   }
   .last-container {
-    padding-bottom: 22rem;
+    padding-bottom: 26rem;
+  }
+  .footer {
+    .footer-sponsors {
+      .sponsor {
+        display: block;
+        padding: 1rem;
+      }
+    }
   }
 }

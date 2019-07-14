@@ -45,6 +45,6 @@ collapseElements.forEach((el) => {
 
 window.addEventListener("load", () => {
   setTimeout(() =>
-    document.getElementById("gramlink").href = "http" + "s://t" + "." + "me" + "/Pol" + "lex" + "TUNI",
+    document.getElementById("tg").parentElement.href = "http" + "s://t" + "." + "me" + "/Pol" + "lex" + "TUNI",
   1000);
 });

@@ -8,7 +8,7 @@
         {{ with $.Site.GetPage "page" "intro.md" }}{{.Content}}{{end}}
       </p>
     </div>
-    <img class="hero-image" src="../img/medic-563423.jpg">
+    <img class="hero-image" src="{{ with $.Site.GetPage "page" "intro.md" }}{{ .Params.banner }}{{end}}">
   </div>
 </section>
 <section class="cards last-container">
