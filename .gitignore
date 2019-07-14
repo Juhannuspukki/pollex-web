@@ -1,9 +1,9 @@
-public
+public/
+dist/
 /.idea/workspace.xml
 /.idea/vcs.xml
 /.idea/modules..xml
 /.idea/Pollexweb.iml
 /.idea/inspectionProfiles
 .idea/
-.idea
 *.DS_Store
