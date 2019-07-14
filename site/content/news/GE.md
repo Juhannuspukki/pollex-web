@@ -1,6 +1,6 @@
 ---
 title: Visiting GE healthcare
-eventdate: 2019-04-03
+eventdate: 2019-05-03
 banner: /img/GE.jpg
 ---
 

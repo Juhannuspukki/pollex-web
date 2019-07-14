@@ -1,6 +1,6 @@
 ---
 title: Helsinki XQ
-eventdate: 2019-04-03
+eventdate: 2019-12-12
 banner: /img/helsinkiXQ.jpg
 ---
 

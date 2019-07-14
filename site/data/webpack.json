@@ -4,6 +4,10 @@
     "js": "main.js"
   },
   "": {
-    "": "fonts/.keep"
+    "": "fonts/.keep",
+    "json": [
+      "33cb0ff22aa8f18a2c45.hot-update.json",
+      "62ea3ce773860f9d6515.hot-update.json"
+    ]
   }
 }

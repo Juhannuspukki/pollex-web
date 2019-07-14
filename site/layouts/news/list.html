@@ -7,7 +7,7 @@
 </section>
 <section class="cards last-container">
   <div class="container">
-    {{ range .Data.Pages }}
+    {{ range ((.Data.Pages).ByParam "eventdate").Reverse }}
       <div class="news-card row">
         <div class="col-md-4 image-container">
           <img src="{{ .Params.banner }}" >
