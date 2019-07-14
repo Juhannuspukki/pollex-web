@@ -1,31 +1,31 @@
 {{ define "main" }}
 
-<div class="thumbnail">
-  <img src="../img/medic-563423.jpg" class="imgcontainer img-responsive">
-  <div class="imglayer">
-    {{ with $.Site.GetPage "page" "intro.md" }}{{.Title}}{{end}}
-    <p>
-      {{ with $.Site.GetPage "page" "intro.md" }}{{.Content}}{{end}}
-    </p>
+<section class="hero topmost-container">
+  <div class="container">
+    <div class="hero-card">
+      <h1>{{ with $.Site.GetPage "page" "intro.md" }}{{.Title}}{{end}}</h1>
+      <p>
+        {{ with $.Site.GetPage "page" "intro.md" }}{{.Content}}{{end}}
+      </p>
+    </div>
+    <img class="hero-image" src="{{ with $.Site.GetPage "page" "intro.md" }}{{ .Params.banner }}{{end}}">
   </div>
-</div>
-<div class="cards">
-  <div class="parent">
-    <div class="col-sm-6" id="card1">
-      {{ with $.Site.GetPage "page" "description.md" }}{{.Content}}{{end}}
-    </div>
-    <div class="col-sm-6" id="card2">
-      {{ with $.Site.GetPage "page" "activities.md" }}{{.Content}}{{end}}
-    </div>
-  </div>
-  <div class="parent">
-    <div class="col-sm-6" id="card3">
-      {{ with $.Site.GetPage "page" "connecting.md" }}{{.Content}}{{end}}
-    </div>
-    <div class="col-sm-6" id="card4">
-      {{ with $.Site.GetPage "page" "joinus.md" }}{{.Content}}{{end}}
+</section>
+<section class="cards last-container">
+  <div class="container">
+    <div class="row">
+      {{ range ((where .Site.Pages "Section" "front-cards").ByParam "rank") }}
+        {{ if .Params.Title }}
+        <div class="col-md-6">
+          <div class="card-inner">
+            <h2>{{ .Params.Title }}</h2>
+            {{ .Content }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
     </div>
   </div>
-</div>
+</section>
 
 {{end}}

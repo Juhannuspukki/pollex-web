@@ -2,26 +2,27 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Pollex"
 sectionPagesMenu = "nav"
+summarylength = 30
 
 [[menu.nav]]
     identifier = "board"
     name = "Board"
     url = "/board"
-    weight = 2
-[[menu.nav]]
-    identifier = "rules"
-    name = "Rules"
-    url = "/rules"
     weight = 3
 [[menu.nav]]
-    identifier = "contact"
-    name = "Contact & join"
-    url = "/contact"
+    identifier = "calendar"
+    name = "Event calendar"
+    url = "/calendar"
+    weight = 2
+[[menu.nav]]
+    identifier = "join"
+    name = "Join"
+    url = "/join"
     weight = 4
 [[menu.nav]]
-    identifier = "events"
-    name = "Events"
-    url = "/events"
+    identifier = "news"
+    name = "News"
+    url = "/news"
     weight = 1
 
 # RSS, categories and tags disabled for an easy start

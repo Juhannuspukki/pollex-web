@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<section class="hero topmost-container">
+  <div class="header-container">
+    <h1>{{ .Params.Title }}</h1>
+  </div>
+</section>
+<section class="container text-container last-container">
+  <img class="single-image" src="{{ .Params.banner }}">
+  <div class="single-text">
+    <p>{{ .Content }}</p>
+  </div>
+  <a href="/news" class="link-button">Back to news</a>
+</section>
+
+{{ end }}

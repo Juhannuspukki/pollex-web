@@ -1,9 +1,26 @@
 {{ define "main" }}
 
-<div class="hero">
-  <div class="container text-container">
-    {{ .Content | markdownify }}
+<section class="hero topmost-container">
+  <div class="header-container">
+    <h1>Boards</h1>
+    <p>{{ .Content | markdownify }}</p>
   </div>
-</div>
+</section>
+<section class="cards last-container">
+  <div class="container">
+    <div class="row">
+      {{ range (.Data.Pages).Reverse }}
+        {{ if .Params.Title }}
+        <div class="col-md-6">
+          <div class="card-inner">
+            <h2>{{ .Params.Title }}</h2>
+            {{ .Content }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
 
 {{ end }}

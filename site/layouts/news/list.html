@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section class="hero topmost-container">
+  <div class="header-container">
+    <h1>{{ .Params.Title }}</h1>
+  </div>
+</section>
+<section class="cards last-container">
+  <div class="container">
+    {{ range ((.Data.Pages).ByParam "eventdate").Reverse }}
+      <div class="news-card row">
+        <div class="col-md-4 image-container">
+          <img src="{{ .Params.banner }}" >
+        </div>
+        <div class="col-md-8">
+          <div class="news-text-inner">
+            <h2>{{ .Params.Title }}</h2>
+            <p><strong>{{ dateFormat "January 2, 2006" .Params.eventdate }}</strong></p>
+            <p class="summary-text">{{ .Summary }}</p>
+            <a href="{{ .RelPermalink }}" class="link-button">Read more</a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
