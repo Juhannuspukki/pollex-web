@@ -73,3 +73,12 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image"}
+  - name: "front-page" # Used in routes, e.g., /admin/collections/blog
+    label: "Front page banner" # Used in the UI
+    folder: "site/content/" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Banner (Recommended width 1110px)", name: "banner", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
