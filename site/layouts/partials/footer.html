@@ -1,39 +1,27 @@
-<div class="ghostfooter">
-  <div class="footer-content">
-    <div class="footer-sponsors">
-      {{ range ((where .Site.Pages "Section" "sponsors").ByParam "rank") }}
-      {{ if .Params.link }}
-        <img src="{{ .Params.logo }}" height="64px" alt="{{ .Params.title }}">
-      {{ end }}
-      {{ end }}
-    </div>
-  </div>
-</div>
 <footer class="footer">
+  {{ $headless := .Site.GetPage "/headless" }}
+  {{ $reusablePages := $headless.Resources.GetMatch (strings.TrimPrefix "/headless/" "footer.md" ) }}
   <div class="container">
     <div class="footer-line-container">
       <img src="/img/line.svg" class="footer-line" aria-hidden="true"/>
     </div>
+    <div class="footer-sponsors">
+      <p>{{ $reusablePages.Params.headline_1 }}</p>
+      {{ range $reusablePages.Params.sponsors }}
+      <a href="{{ .link}}" class="sponsor">
+        <img src="{{ .logo }}" alt="{{ .Params.title }}">
+      </a>
+      {{ end }}
+    </div>
     <div class="footer-content">
-      <p>Clubroom: Päätalo basement, PC001E</p>
-      {{ range ((where .Site.Pages "Section" "footer").ByParam "rank") }}
-        {{ if .Params.link }}
-        <a href="{{ .Params.link }}" class="footer-icon">
-          <i id="{{ .Params.id }}"
-             class="fab {{ .Params.icon }} fa-3x"
+      <p>{{ $reusablePages.Params.headline_2 }}</p>
+      {{ range $reusablePages.Params.social_media }}
+        <a href="{{ .link }}" class="footer-icon">
+          <i id="{{ .id }}"
+             class="fab {{ .icon }} fa-3x"
              aria-hidden="true"></i>
         </a>
-        {{ end }}
       {{ end }}
-      <div class="footer-sponsors">
-      {{ range ((where .Site.Pages "Section" "sponsors").ByParam "rank") }}
-        {{ if .Params.link }}
-        <a href="{{ .Params.link }}" class="sponsor">
-          <img src="{{ .Params.logo }}" height="24px">
-        </a>
-        {{ end }}
-      {{ end }}
-      </div>
       <!--No words were pressed in the making of this site.-->
     </div>
   </div>

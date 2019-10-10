@@ -36,15 +36,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Form code", name: "formcode", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "footer" # Used in routes, e.g., /admin/collections/blog
-    label: "Footer" # Used in the UI
-    folder: "site/content/footer" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Link (has to be / for Telegram)", name: "link", widget: "string"}
-      - {label: "Id (has to be tg for Telegram)", name: "id", widget: "string"}
-      - {label: "Icon (FontAwesome)", name: "icon", widget: "string"}
   - name: "front-cards" # Used in routes, e.g., /admin/collections/blog
     label: "Front page cards" # Used in the UI
     folder: "site/content/front-cards" # The path to the folder where the documents are stored
@@ -65,15 +56,6 @@ collections:
       - {label: "Thumbnail (380px x 230 px)", name: "thumbnail", widget: "image"}
       - {label: "Banner (738px x 416px)", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "sponsors" # Used in routes, e.g., /admin/collections/blog
-    label: "Sponsors" # Used in the UI
-    folder: "site/content/sponsors" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Logo", name: "logo", widget: "image"}
   - name: "front-page" # Used in routes, e.g., /admin/collections/blog
     label: "Front page banner" # Used in the UI
     folder: "site/content/" # The path to the folder where the documents are stored
@@ -83,3 +65,20 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Banner (Recommended width 1110px)", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Footer"
+    name: "footer"
+    files:
+      - label: "Footer"
+        name: "en-footer"
+        file: "site/content/headless/footer.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Headline", name: "headline_1", widget: "string"}
+          - {label: "Sponsors", name: events, widget: list, fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Link", name: "link", widget: "string"},
+              {label: "Logo (scale to 40px height)", name: "logo", widget: "image"}]}
+          - {label: "Second headline", name: "headline_2", widget: "string"}
+          - {label: "Sponsors", name: events, widget: list, fields: [
+              {label: "Id", name: "id", widget: "string"},
+              {label: "Logo (fontawesome code)", name: "icon", widget: "string"},
+              {label: "Link", name: "link", widget: "string"}]}

@@ -48,7 +48,7 @@ h1, h2, h3 {
 }
 
 .last-container {
-  padding-bottom: 22rem;
+  padding-bottom: 28rem;
 }
 
 .hero {
@@ -193,8 +193,11 @@ h1, h2, h3 {
   }
   .footer-sponsors {
     margin-top: 2rem;
-    .sponsor{
+    .sponsor {
       padding: 0 1rem;
+      img {
+        max-height: 2.5rem;
+      }
     }
   }
 
@@ -202,10 +205,6 @@ h1, h2, h3 {
     text-decoration: none;
     opacity: 0.8;
   }
-}
-
-.ghostfooter {
-  visibility: hidden;
 }
 
 .form {
