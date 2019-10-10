@@ -3,26 +3,24 @@
 <section class="hero topmost-container">
   <div class="container">
     <div class="hero-card">
-      <h1>{{ with $.Site.GetPage "page" "intro.md" }}{{.Title}}{{end}}</h1>
+      <h1>{{ .Params.Title}}</h1>
       <p>
-        {{ with $.Site.GetPage "page" "intro.md" }}{{.Content}}{{end}}
+        {{ .Params.overlay }}
       </p>
     </div>
-    <img class="hero-image" src="{{ with $.Site.GetPage "page" "intro.md" }}{{ .Params.banner }}{{end}}">
+    <img class="hero-image" src="{{ .Params.banner }}">
   </div>
 </section>
 <section class="cards last-container">
   <div class="container">
     <div class="row">
-      {{ range ((where .Site.Pages "Section" "front-cards").ByParam "rank") }}
-        {{ if .Params.Title }}
+      {{ range .Params.cards }}
         <div class="col-md-6">
           <div class="card-inner">
-            <h2>{{ .Params.Title }}</h2>
-            {{ .Content }}
+            <h2>{{ .title }}</h2>
+            {{ .description | markdownify}}
           </div>
         </div>
-        {{ end }}
       {{ end }}
     </div>
   </div>

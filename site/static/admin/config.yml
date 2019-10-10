@@ -2,8 +2,6 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 # This line should *not* be indented
-publish_mode: editorial_workflow
-# This line should *not* be indented
 media_folder: "site/static/img" # Media files will be stored in the repo under images
 public_folder: "img" # The src attribute for uploaded media will begin with /images/uploads
 display_url: https://pollex.club
@@ -11,42 +9,48 @@ slug:
   encoding: "ascii"
   clean_accents: true
 collections:
-  - name: "board" # Used in routes, e.g., /admin/collections/blog
-    label: "Board" # Used in the UI
-    folder: "site/content/board" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "calendar" # Used in routes, e.g., /admin/collections/blog
-    label: "Calendar" # Used in the UI
-    folder: "site/content/calendar" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Form code", name: "formcode", widget: "string"}
-  - name: "join" # Used in routes, e.g., /admin/collections/blog
-    label: "Join" # Used in the UI
-    folder: "site/content/join" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Form code", name: "formcode", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "front-cards" # Used in routes, e.g., /admin/collections/blog
-    label: "Front page cards" # Used in the UI
-    folder: "site/content/front-cards" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Rank", name: "rank", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Single pages"
+    name: "pages"
+    files:
+      - label: "Front page"
+        name: "index"
+        file: "site/content/_index.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Banner (Recommended width 1110px)", name: "banner", widget: "image"}
+          - {label: "Image overlay", name: "overlay", widget: "string"}
+          - {label: "Cards", name: cards, widget: list, fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "description", name: "description", widget: "markdown"},]}
+      - label: "News"
+        name: "news"
+        file: "site/content/news/_index.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+      - label: "Calendar"
+        name: "calendar"
+        file: "site/content/calendar/_index.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Form code", name: "formcode", widget: "string"}
+      - label: "Board"
+        name: "board"
+        file: "site/content/board/_index.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "markdown"}
+          - {label: "Boards", name: boards, widget: list, fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "description", name: "description", widget: "markdown"},]}
+      - label: "Join"
+        name: "join"
+        file: "site/content/join/_index.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Form code", name: "formcode", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "news" # Used in routes, e.g., /admin/collections/blog
-    label: "News" # Used in the UI
+    label: "News posts" # Used in the UI
     folder: "site/content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -55,15 +59,6 @@ collections:
       - {label: "Date", name: "eventdate", widget: "date"}
       - {label: "Thumbnail (380px x 230 px)", name: "thumbnail", widget: "image"}
       - {label: "Banner (738px x 416px)", name: "banner", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "front-page" # Used in routes, e.g., /admin/collections/blog
-    label: "Front page banner" # Used in the UI
-    folder: "site/content/" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Banner (Recommended width 1110px)", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Footer"
     name: "footer"
@@ -78,7 +73,7 @@ collections:
               {label: "Link", name: "link", widget: "string"},
               {label: "Logo (scale to 40px height)", name: "logo", widget: "image"}]}
           - {label: "Second headline", name: "headline_2", widget: "string"}
-          - {label: "Sponsors", name: social_media, widget: list, fields: [
+          - {label: "Social media", name: social_media, widget: list, fields: [
               {label: "Id", name: "id", widget: "string"},
               {label: "Logo (fontawesome code)", name: "icon", widget: "string"},
               {label: "Link", name: "link", widget: "string"}]}

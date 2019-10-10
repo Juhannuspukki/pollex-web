@@ -3,21 +3,19 @@
 <section class="hero topmost-container">
   <div class="header-container">
     <h1>Boards</h1>
-    <p>{{ .Content | markdownify }}</p>
+    <p>{{ .Params.subtitle | markdownify }}</p>
   </div>
 </section>
 <section class="cards last-container">
   <div class="container">
     <div class="row">
-      {{ range (.Data.Pages).Reverse }}
-        {{ if .Params.Title }}
+      {{ range .Params.boards }}
         <div class="col-md-6">
           <div class="card-inner">
-            <h2>{{ .Params.Title }}</h2>
-            {{ .Content }}
+            <h2>{{ .title }}</h2>
+            {{ .description | markdownify}}
           </div>
         </div>
-        {{ end }}
       {{ end }}
     </div>
   </div>

@@ -1,6 +1,63 @@
 ---
 title: Board
+subtitle: 'Board email: pollex@tut.fi'
+boards:
+    - title: Board 2019
+      description: >-
+                   Chairperson: Sanna Kallio
 
+
+                   Secretary: Vilma Pohjonen
+
+
+                   Treasurer: Meri Mäkelä
+
+
+                   Information, vice chairperson: Paula Puistola
+
+
+                   Studies: Matias Jokinen
+
+
+                   Club room: Anna Malm
+    - title: Board 2018
+      description: >-
+                   Chairman of the board: Eetu Siitama
+
+
+                   External relations: Sanna Kallio
+
+
+                   Treasurer and IT guy: Jere Laine
+
+
+                   Secretary: Paula Puistola
+
+
+                   Studies: Vilma Pohjonen
+
+
+                   Information: Asta Peräkylä
+    - title: Board 2017
+      description: >-
+
+                   Chairman of the board: Sanna Kallio
+
+
+                   Secretary and vice chairman: Manu Kujala
+
+
+                   Treasurer: Eetu Siitama
+
+
+                   Studies: Timo Kankkunen
+
+
+                   Communications: Jere Laine
+
+
+                   Club room: Anna Malm
+
+
+                   God: Tiina Ristilä
 ---
-
-Board email: pollex@tut.fi
