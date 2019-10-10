@@ -73,12 +73,12 @@ collections:
         file: "site/content/headless/footer.md"
         fields: # The fields for each document, usually in front matter
           - {label: "Headline", name: "headline_1", widget: "string"}
-          - {label: "Sponsors", name: events, widget: list, fields: [
+          - {label: "Sponsors", name: sponsors, widget: list, fields: [
               {label: "Title", name: "title", widget: "string"},
               {label: "Link", name: "link", widget: "string"},
               {label: "Logo (scale to 40px height)", name: "logo", widget: "image"}]}
           - {label: "Second headline", name: "headline_2", widget: "string"}
-          - {label: "Sponsors", name: events, widget: list, fields: [
+          - {label: "Sponsors", name: social_media, widget: list, fields: [
               {label: "Id", name: "id", widget: "string"},
               {label: "Logo (fontawesome code)", name: "icon", widget: "string"},
               {label: "Link", name: "link", widget: "string"}]}
