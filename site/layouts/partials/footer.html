@@ -3,7 +3,7 @@
     <div class="footer-sponsors">
       {{ range ((where .Site.Pages "Section" "sponsors").ByParam "rank") }}
       {{ if .Params.link }}
-        <img src="{{ .Params.logo }}" height="64px">
+        <img src="{{ .Params.logo }}" height="64px" alt="{{ .Params.title }}">
       {{ end }}
       {{ end }}
     </div>
@@ -12,7 +12,7 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-line-container">
-      <img src="/img/line.svg" class="footer-line"/>
+      <img src="/img/line.svg" class="footer-line" aria-hidden="true"/>
     </div>
     <div class="footer-content">
       <p>Clubroom: Päätalo basement, PC001E</p>
