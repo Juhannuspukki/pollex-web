@@ -6,8 +6,7 @@ cards:
   - description: >-
       Pollex is the biomedical engineering club of Tampere University. Our
       mission is to provide everyone interested in BME a place to meet, form
-      connections and share job opportunities. A significant portion of our
-      members are exchange students.
+      connections and share job opportunities.
     title: Pollex? Is that like a horse club?
   - description: >-
       We arrange excursions and meetings with the corporate world. Lately we
@@ -26,4 +25,3 @@ cards:
       pollex-hallitus\[ät]lists.tuni.fi!
     title: Join us!
 ---
-
