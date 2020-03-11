@@ -1,6 +1,6 @@
 ---
 title: Board
-subtitle: 'Board email: pollex@tut.fi'
+subtitle: 'Board email: pollex-hallitus@lists.tuni.fi'
 boards:
   - title: Board 2020
     description: |-
