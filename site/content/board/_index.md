@@ -2,62 +2,63 @@
 title: Board
 subtitle: 'Board email: pollex@tut.fi'
 boards:
-    - title: Board 2019
-      description: >-
-                   Chairperson: Sanna Kallio
+  - title: Board 2019
+    description: |-
+      Chairperson: Sanna Kallio
 
+      Secretary: Vilma Pohjonen
 
-                   Secretary: Vilma Pohjonen
+      Treasurer: Meri Mäkelä
 
+      Information, vice chairperson: Paula Puistola
 
-                   Treasurer: Meri Mäkelä
+      Studies: Matias Jokinen
 
+      Club room: Anna Malm
+  - title: Board 2018
+    description: |-
+      Chairman of the board: Eetu Siitama
 
-                   Information, vice chairperson: Paula Puistola
+      External relations: Sanna Kallio
 
+      Treasurer and IT guy: Jere Laine
 
-                   Studies: Matias Jokinen
+      Secretary: Paula Puistola
 
+      Studies: Vilma Pohjonen
 
-                   Club room: Anna Malm
-    - title: Board 2018
-      description: >-
-                   Chairman of the board: Eetu Siitama
+      Information: Asta Peräkylä
+  - title: Board 2017
+    description: |-
 
+      Chairman of the board: Sanna Kallio
 
-                   External relations: Sanna Kallio
+      Secretary and vice chairman: Manu Kujala
 
+      Treasurer: Eetu Siitama
 
-                   Treasurer and IT guy: Jere Laine
+      Studies: Timo Kankkunen
 
+      Communications: Jere Laine
 
-                   Secretary: Paula Puistola
+      Club room: Anna Malm
 
+      God: Tiina Ristilä
+  - title: Board 2020
+    description: |-
+      Chairperson: Eetu Siitama
 
-                   Studies: Vilma Pohjonen
+      Company relations, vice chairperson: Atte Sinkonen
 
+      Secretary: Sanna Kallio
 
-                   Information: Asta Peräkylä
-    - title: Board 2017
-      description: >-
+      Treasurer: Laura Ala-Aho
 
-                   Chairman of the board: Sanna Kallio
+      Communications: Matias Jokinen
 
+      Club room responsible: Susanna Kaukoranta
 
-                   Secretary and vice chairman: Manu Kujala
+      Workshop officer: Karim Ameziane
 
-
-                   Treasurer: Eetu Siitama
-
-
-                   Studies: Timo Kankkunen
-
-
-                   Communications: Jere Laine
-
-
-                   Club room: Anna Malm
-
-
-                   God: Tiina Ristilä
+      IT-mikko: Mikko Moisio
 ---
