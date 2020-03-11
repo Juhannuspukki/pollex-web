@@ -6,7 +6,7 @@ boards:
     description: |-
       Chairperson: Eetu Siitama
 
-      Company relations, vice chairperson: Atte Sinkonen
+      Company relations, vice chairperson: Atte Sinkkonen
 
       Secretary: Sanna Kallio
 
