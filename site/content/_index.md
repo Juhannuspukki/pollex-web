@@ -19,7 +19,7 @@ cards:
       and such on Telegram, Facebook and by email. We also have a LinkedIn page.
     title: Connecting people
   - description: >-
-      We have a cozy clubroom in the basement of Päärakennus, Hervanta next to
+      We have a cozy club room in the basement of Päärakennus, Hervanta next to
       Autek, INTO and Bioner. The membership fee is 3€. We also sell cool
       overall badges for 2€! Come meet us at any of our events or send an email
       to us at pollex-hallitus\[ät]lists.tuni.fi!
