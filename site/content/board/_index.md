@@ -2,6 +2,23 @@
 title: Board
 subtitle: 'Board email: pollex@tut.fi'
 boards:
+  - title: Board 2020
+    description: |-
+      Chairperson: Eetu Siitama
+
+      Company relations, vice chairperson: Atte Sinkonen
+
+      Secretary: Sanna Kallio
+
+      Treasurer: Laura Ala-Aho
+
+      Communications: Matias Jokinen
+
+      Club room responsible: Susanna Kaukoranta
+
+      Workshop officer: Karim Ameziane
+
+      IT-mikko: Mikko Moisio
   - title: Board 2019
     description: |-
       Chairperson: Sanna Kallio
@@ -44,21 +61,4 @@ boards:
       Club room: Anna Malm
 
       God: Tiina Ristilä
-  - title: Board 2020
-    description: |-
-      Chairperson: Eetu Siitama
-
-      Company relations, vice chairperson: Atte Sinkonen
-
-      Secretary: Sanna Kallio
-
-      Treasurer: Laura Ala-Aho
-
-      Communications: Matias Jokinen
-
-      Club room responsible: Susanna Kaukoranta
-
-      Workshop officer: Karim Ameziane
-
-      IT-mikko: Mikko Moisio
 ---
