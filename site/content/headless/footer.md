@@ -7,7 +7,7 @@ sponsors:
   - link: 'https://www.mylab.fi/'
     logo: /img/mylab_logo_slogan_black_rgb.jpg
     title: Mylab
-headline_2: 'Clubroom: PC001E at Päärakennus basement in Hervanta.'
+headline_2: 'Club room: PC001E at Päärakennus basement in Hervanta.'
 social_media:
   - icon: fa-facebook
     id: fb
