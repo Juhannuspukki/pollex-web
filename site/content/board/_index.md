@@ -2,6 +2,29 @@
 title: Board
 subtitle: "Board email: pollex-hallitus@lists.tuni.fi"
 boards:
+  - title: Board 2021
+    description: |-
+      Chairperson: Susanna Kaukoranta
+
+      Company relations, vice chairperson: Atte Sinkkonen
+
+      Secretary: Sanna Kallio
+
+      Treasurer: Jonathan Wozak
+
+      Information: Mikael Martois
+
+      Event managing: Amanda Laurila
+
+      Workshop responsible: Karim Ameziane
+
+      IT-mikko: Mikko Moisio
+
+      Alumni responsible: Paula Puistola
+
+      Alumni responsible: Vilma Pohjonen
+
+      General officer: Matias Jokinen
   - title: Board 2020
     description: |-
       Chairperson: Eetu Siitama
@@ -61,27 +84,4 @@ boards:
       Club room: Anna Malm
 
       God: Tiina Ristilä
-  - title: Board 2021
-    description: |-
-      Chairperson: Susanna Kaukoranta
-
-      Company relations, vice chairperson: Atte Sinkkonen
-
-      Secretary: Sanna Kallio
-
-      Treasurer: Jonathan Wozak
-
-      Information: Mikael Martois
-
-      Event managing: Amanda Laurila
-
-      Workshop responsible: Karim Ameziane
-
-      IT-mikko: Mikko Moisio
-
-      Alumni responsible: Paula Puistola
-
-      Alumni responsible: Vilma Pohjonen
-
-      General officer: Matias Jokinen
 ---
