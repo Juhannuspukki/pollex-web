@@ -10,6 +10,6 @@ Reference number: 17174
 
 Receivers name: Lääketieteellisen tekniikan ammattiainekerho Pollex ry
 
-
+\----------------------------------------------------------------------------------------
 
 // If you are a new member, please fill out the form below:
