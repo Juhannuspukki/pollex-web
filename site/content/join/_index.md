@@ -12,4 +12,4 @@ Receivers name: Lääketieteellisen tekniikan ammattiainekerho Pollex ry.
 
 
 
-// Also if you are a new member fill out the form below:
+// If you are a new member, please fill out the form below:
