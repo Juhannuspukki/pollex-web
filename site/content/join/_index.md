@@ -8,7 +8,7 @@ Account number: FI83 5731 6520 1813 73
 
 Reference number: 17174
 
-Receivers name: Lääketieteellisen tekniikan ammattiainekerho Pollex ry.
+Receivers name: Lääketieteellisen tekniikan ammattiainekerho Pollex ry
 
 
 
