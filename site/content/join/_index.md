@@ -12,4 +12,8 @@ Receivers name: Lääketieteellisen tekniikan ammattiainekerho Pollex ry
 
 \----------------------------------------------------------------------------------------
 
+See the rules (only in Finnish): **[Click](https://drive.google.com/file/d/1eOUgAzVzcTHCxm8W0Zqf9crmSmFL8nC_/view?usp=sharing)**
+
+\----------------------------------------------------------------------------------------
+
 // If you are a new member, please fill out the form below:
