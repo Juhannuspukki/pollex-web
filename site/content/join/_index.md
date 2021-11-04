@@ -16,4 +16,4 @@ See the rules (only in Finnish): **[Click](https://drive.google.com/file/d/1eOUg
 
 \----------------------------------------------------------------------------------------
 
-// Please fill out the form below:
+// When joining, please fill out the form below:
